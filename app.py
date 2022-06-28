@@ -6,7 +6,10 @@ CORS(app)
 
 @app.route("/number-of-submissions")
 def number_of_submissions():
-  return {"count": 7}
+  return {"count": getNumberOfSubmissions()}
 
 if __name__ == "__main__":
   app.run(host='0.0.0.0', port=8000, debug=True)
+
+def getNumberOfSubmissions():
+  return 7
