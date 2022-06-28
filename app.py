@@ -6,4 +6,4 @@ CORS(app)
 
 @app.route("/number-of-submissions")
 def hello_world():
-  return "<h1>Hello World</h1>"
+  return {"json-int": 7}
