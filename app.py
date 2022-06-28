@@ -8,7 +8,7 @@ dbi = DBInteraction()
 
 @app.route("/number-of-submissions")
 def number_of_submissions():
-  count = dbi.get_submissions_count("seta-est.cvcpj1fhj3k9.us-east-2.rds.amazonaws.com", "est")
+  count = dbi.get_total_submission_count
   return {"count": count}
 
 if __name__ == "__main__":
