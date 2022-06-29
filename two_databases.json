@@ -1,4 +1,18 @@
 {
   "gbr":"seta-gbr.cvcpj1fhj3k9.us-east-2.rds.amazonaws.com",
-  "arg":"seta-arg.cvcpj1fhj3k9.us-east-2.rds.amazonaws.com"
+  "arg":"seta-arg.cvcpj1fhj3k9.us-east-2.rds.amazonaws.com",
+  "bra":"seta-bra.cvcpj1fhj3k9.us-east-2.rds.amazonaws.com",
+  "brn":"seta-brn.cvcpj1fhj3k9.us-east-2.rds.amazonaws.com",
+  "can":"seta-can.cvcpj1fhj3k9.us-east-2.rds.amazonaws.com",
+  "che":"seta-che.cvcpj1fhj3k9.us-east-2.rds.amazonaws.com",
+  "chl":"seta-chl.cvcpj1fhj3k9.us-east-2.rds.amazonaws.com",
+  "col":"seta-col.cvcpj1fhj3k9.us-east-2.rds.amazonaws.com",
+  "cri":"seta-cri.cvcpj1fhj3k9.us-east-2.rds.amazonaws.com",
+  "cze":"seta-cze.cvcpj1fhj3k9.us-east-2.rds.amazonaws.com",
+  "deu":"seta-deu.cvcpj1fhj3k9.us-east-2.rds.amazonaws.com",
+  "dnk":"seta-dnk.cvcpj1fhj3k9.us-east-2.rds.amazonaws.com",
+  "dom":"seta-dom.cvcpj1fhj3k9.us-east-2.rds.amazonaws.com",
+  "esp":"seta-esp.cvcpj1fhj3k9.us-east-2.rds.amazonaws.com",
+  "est":"seta-est.cvcpj1fhj3k9.us-east-2.rds.amazonaws.com",
+  "fin":"seta-fin.cvcpj1fhj3k9.us-east-2.rds.amazonaws.com"
   }
