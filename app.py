@@ -10,7 +10,7 @@ rc = RecordCount()
 
 @app.route("/number-of-submissions")
 def number_of_submissions():
-  count = rc.counts
+  count = rc.count
   return {"count": count}
 
 if __name__ == "__main__":
