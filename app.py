@@ -1,6 +1,7 @@
 from flask import Flask
 from flask_cors import CORS
 from db_interaction import DBInteraction
+from record_count import RecordCount
 
 app = Flask(__name__)
 CORS(app)
