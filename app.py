@@ -2,7 +2,6 @@ import psycopg2
 from db_connections import DatabaseConnections
 from flask import Flask
 from flask_cors import CORS
-from db_interaction import DBInteraction
 from record_count import RecordCount
 
 app = Flask(__name__)
@@ -19,7 +18,7 @@ def number_of_submissions():
 def get_quantity_of_records(connection):
   cursor = connection.cursor()
   cursor.execute("select count (*) from responses;")
-  quant = cursor.fetchone()[0]
+  quant = sum(cursor.fetchone())
   cursor.close()
   return quant
 
