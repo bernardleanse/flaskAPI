@@ -10,6 +10,7 @@ gunicorn = "*"
 psycopg2 = "*"
 sqlalchemy = "*"
 pandas = "*"
+pymongo = {extras = ["srv"], version = "*"}
 
 [dev-packages]
 ipykernel = "*"
