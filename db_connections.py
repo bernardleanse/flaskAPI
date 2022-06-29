@@ -3,7 +3,7 @@ import json
 
 class DatabaseConnections:
   def __init__(self):
-    self.databases = json.load(open("databases.json"))
+    self.databases = json.load(open("ten_databases.json"))
     self.connections = {}
     self.username = "seta"
     self.password = "defaultUnsafePassword"
