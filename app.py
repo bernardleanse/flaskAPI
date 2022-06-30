@@ -11,6 +11,5 @@ def number_of_submissions():
   res = con.db.counts.find_one()
   return {'count':res['count']}
 
-number_of_submissions()
 
 
